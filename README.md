@@ -1,8 +1,11 @@
-# React + Vite
+# Grupo Los Hackers
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido a este Readme. Estaré trabajando con meal-details
 
-Currently, two official plugins are available:
+## Reglas:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Amable con la comunidad
+- Hablar y chatear
+- Paleta de colores Rojo: https://imagecolorpicker.com/color-code/c40005
+- Paleta de colores Rojo: https://imagecolorpicker.com/color-code/f8c617
+- Paleta de colores Negro: https://imagecolorpicker.com/color-code/000000
