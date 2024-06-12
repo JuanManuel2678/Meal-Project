@@ -4,8 +4,14 @@ Bienvenido a este Readme. Estaré trabajando con meal-details
 
 ## Reglas:
 
-- Amable con la comunidad
-- Hablar y chatear
-- Paleta de colores Rojo: https://imagecolorpicker.com/color-code/c40005
-- Paleta de colores Rojo: https://imagecolorpicker.com/color-code/f8c617
-- Paleta de colores Negro: https://imagecolorpicker.com/color-code/000000
+- Ser amable con la comunidad. Ejemplo:
+```
+- Buenos dias colega, como estas?
+- Cuanto has avanzado con el proyecto, eh?
+ ```
+- Comunicarse a traves de `pullrequest`
+
+- Paleta de colores **Permitida**:
+ https://imagecolorpicker.com/color-code/c40005
+https://imagecolorpicker.com/color-code/f8c617
+https://imagecolorpicker.com/color-code/000000
