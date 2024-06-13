@@ -1,5 +1,9 @@
+
 import React, { useState, useEffect } from 'react';
 import MealDetail from './components/MealDetail/MealDetail';
+import RightSide from "./components/RightSide"
+
+
 
 function App() {
   const [meals, setMeals] = useState([]);
@@ -29,9 +33,14 @@ function App() {
 
   return (
     <>
+
       {meals && meals.map((meal, index) => (
         <MealDetail key={index} meal={meal} />
       ))}
+
+    <RightSide/>
+
+
     </>
   );
 }
