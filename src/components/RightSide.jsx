@@ -29,7 +29,7 @@ export default function RightSide() {
     
     function search_meal() {
      const filtered = meal.filter(item => item.name.toLowerCase().includes(search.name.toLowerCase()))
-     setData(filtered)  
+     setData(filtered)
     }
 
     return(
