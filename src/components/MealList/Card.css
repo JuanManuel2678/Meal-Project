@@ -1,0 +1,31 @@
+.card{
+    width: 100%;
+    border-radius: 26px;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 6px #A93226, 10px 12px #6E2C00;
+}
+
+figure{
+    width: 100%;
+}
+
+.meal-pic{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 100%;
+    max-width: 430px;
+    max-height: 400px;
+}
+
+.card-body{
+    height: 40px;
+}
+
+.card-title{
+    padding: 5px;
+    font-size: 20px;
+}
