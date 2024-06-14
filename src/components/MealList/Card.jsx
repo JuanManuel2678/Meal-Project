@@ -1,6 +1,7 @@
+import React from 'react'
 import './Card.css'
 
-export const Card = ({id, name, img}) => {
+export default function Card ({id, name, img}) {
     return (
         <>
             <div className="card" key={id}>

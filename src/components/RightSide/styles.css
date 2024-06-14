@@ -17,7 +17,7 @@ input {
     height: 35px;
     border: rgb(3, 0, 0) solid 1px;
     border-radius: 5px;
-    margin-top: 15px;
+    margin-top: 20px;
     padding-inline: 12px;
     background-color: red;
     color: black;
@@ -35,15 +35,20 @@ h1 {
 }
 
 ul {
-   margin-top: 15px;
-    padding: 1rem 1.5rem;
+    /* padding: 1rem 1rem; */
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+a {
+    text-decoration: none;
+    color: black;
 }
 
-li {
+.category {
     border-radius: 5px;
     width: 100%;
     color: rgb(2, 0, 0);
@@ -52,9 +57,9 @@ li {
     align-items: center;
     font-weight: bolder;
     padding-inline: 5px;
-    
+    padding: 10px 10px;
 }
-li:hover {
+.category:hover {
     background-color: rgb(254, 199, 31);
     color: rgb(0, 0, 0);
 }

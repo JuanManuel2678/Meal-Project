@@ -3,6 +3,7 @@ import CategoriteList from './CategoriteList'
 import CategoriteItem from './CategoriteItem'
 import './styles.css'
 
+
 export default function RightSide() {
     const [meal, setMeal] = useState([])
     const [data, setData] = useState([])
@@ -10,7 +11,7 @@ export default function RightSide() {
 
 
     async function getData() {
-        const rs = await fetch('http://www.themealdb.com/api/json/v1/1/categories.php')
+        const rs = await fetch(`http://www.themealdb.com/api/json/v1/1/categories.php`)
         const rsJson = await rs.json()
         console.log(rsJson)
 
@@ -37,7 +38,6 @@ export default function RightSide() {
          <h1>Meals</h1>
         <div className="search_container">
           <input type="text" placeholder="Search category" value={search.name} onChange={(e) => setSearch({...search, name: e.target.value})} onClick={search_meal}/>
-           {/* <button onClick={search_meal}>Search</button> */}
         </div>
         
         <CategoriteList>
