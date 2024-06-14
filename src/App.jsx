@@ -19,7 +19,8 @@ function App() {
         dataCat && <MealList data={dataCat}/>
       }
     </>
-  )
+  );
 }
 
-export default App
+export default App;
+
